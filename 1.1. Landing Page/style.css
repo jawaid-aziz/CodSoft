@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #240024;
+    background-color: #240024;
 }
 
 h1 {
@@ -39,4 +39,34 @@ a {
 
 ul {
     list-style: none;
+}
+
+/* utility classes */
+
+.container {
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    background-color: white;
+}
+
+.main-nav {
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-links {
+    background-color: white;
+}
+
+.company-logo img {
+    width: 200px;
 }
