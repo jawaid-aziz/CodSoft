@@ -41,11 +41,20 @@ body {
 
 .nav-btn {
     padding-top: 18px;
-    border-radius: 6px solid;
-    border-color:rgb(24, 0, 51);
 }
 
 .nav-btn a {
     text-decoration: none;
-    color: rgb(24, 0, 51);
+    border: 2px solid;
+    border-radius: 5px;
+    border-color:rgb(24, 0, 51);
+    background-color: rgb(24, 0, 51);;
+    color: white;
+    padding: 6px;
+    transition: 0.2s ease-out;
+}
+
+.nav-btn a:hover {
+    color:rgb(24, 0, 51);
+    background-color: white;
 }
