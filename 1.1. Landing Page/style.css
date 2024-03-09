@@ -46,9 +46,9 @@ body {
 .nav-btn a {
     text-decoration: none;
     border: 2px solid;
-    border-radius: 5px;
+    border-radius: 20px;
     border-color:rgb(24, 0, 51);
-    background-color: rgb(24, 0, 51);;
+    background-color: rgb(24, 0, 51);
     color: white;
     padding: 6px;
     transition: 0.2s ease-out;
@@ -57,4 +57,79 @@ body {
 .nav-btn a:hover {
     color:rgb(24, 0, 51);
     background-color: white;
+}
+
+
+header {
+    padding-inline: 30px;
+    padding: 30px;
+}
+.header {
+    height: 470px;
+    padding-inline: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+    background-color: rgb(45, 12, 83);
+    border: 2px;
+    border-radius: 8px;
+}
+
+.right-header {
+    align-self: center;
+}
+
+.right-header img {
+    width: 500px;
+    border: 2px;
+    border-radius: 6px;
+}
+
+.left-header {
+    padding-left: 30px;
+    width: 400px;
+    align-self: center;
+}
+
+.left-header h2 {
+    border: 2px;
+    border-radius: 20px;
+    background-color: rgb(143, 107, 180);
+    padding: 4px;
+    width: fit-content;
+}
+
+.left-header h1 {
+    color: white;
+}
+
+.left-header p {
+    font-weight: 10;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.left-header a {
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    color: rgb(45, 12, 83);
+    padding: 6px;
+    transition: 0.2s ease-out;
+    padding-inline: 80px;
+    font-weight: bolder;
+}
+
+.left-header a:hover {
+    color: white;
+    background-color: rgb(45, 12, 83);
+}
+
+.left-header i {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 3px;
+    color: white;
+    background-color: rgb(24, 0, 51);
 }
