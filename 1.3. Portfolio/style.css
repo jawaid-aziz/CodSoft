@@ -48,6 +48,7 @@ body {
 
 .home {
     display: flex;
+    gap: 170px;
     height: 100vh;
     align-items: center;
     padding: 0 10%;
@@ -109,6 +110,45 @@ body {
 .btn-box a:nth-child(1):hover {
     color: #00abf0;
     background: #081b29;
-} 
+}
+
+.contacts {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts a {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.contacts a:hover {
+    border-width: 4px;
+    border-radius: 20%;
+}
+
+.home-pic img {
+    width: 330px;
+    height: 320px;
+    opacity: 0.7;
+    border: 2px #081b29;
+    border-radius: 10%;
+    background: transparent;
+}
 
 
