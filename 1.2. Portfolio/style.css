@@ -151,4 +151,54 @@ body {
     background: transparent;
 }
 
+@media (max-width: 1024px) {
+    .header {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        width: 90%;
+        padding-left: 22%;
+    }
+    .navbar a {
+        font-size: 15px;
+    }
+    .logo {
+        font-size: 17px;
+    }
+    .home{
+
+        flex-direction: column;
+    }
+    #content {
+        max-width: 500px;
+        padding-top: 20%;
+        
+    }
+    #content h1 {
+        font-size: 30px;
+    }
+    #content h3 {
+        font-size: 25px;
+    }
+    #content p {
+        font-size: 12px;
+    }
+    .home-content .btn-box {
+        gap: 120px;
+    }
+
+    .home-pic {
+        position: absolute;
+        top: 60%;
+        right: 30%;
+        padding-bottom: 120px;
+    }
+    .contacts {
+        padding-top: 60px;
+        bottom: 0px;
+    }
+}
 
